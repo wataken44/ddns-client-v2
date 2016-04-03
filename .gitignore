@@ -145,3 +145,7 @@ ENV/
 # Spyder project settings
 .spyderproject
 
+# ddns-client-v2 specific
+config.json
+periodical.txt
+ddns.log

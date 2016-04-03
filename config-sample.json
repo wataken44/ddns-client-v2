@@ -1,0 +1,18 @@
+{
+  "ip_url": "http://u.w5n.org/ip",
+  "periodical_update_days": 5,
+  "domains": [
+    {
+      "domain": "<your domain>",
+      "update_url": "<update url(%ipv4%|%ipv6% will be replaced to current ipv4|ipv6 address)>",
+      "ipv4": true,
+      "ipv6": false
+    },
+    {
+      "domain":"wataken44.dynv6.net",
+      "update_url": "http://dynv6.com/api/update?hostname=wataken44.dynv6.net&token=<dynv6 token>&ipv4=%ipv4%&ipv6=%ipv6%",
+      "ipv4": true,
+      "ipv6": true
+    }
+  ]
+}
