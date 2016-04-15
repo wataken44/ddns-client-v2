@@ -115,10 +115,10 @@ def urlget(url, ipv6=False):
 
     # create new url
     netloc = ip
-    if port is not None:
-        netloc = "%s:%s" % (ip, port)
     if ipv6:
         netloc = "[%s]" % netloc
+    if port is not None:
+        netloc = "%s:%s" % (ip, port)
         
     pr = (pr.scheme, netloc, pr.path, pr.params, pr.query, pr.fragment)
     url = urlunparse(pr)
